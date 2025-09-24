@@ -1,18 +1,17 @@
 {
-  "name": "my-mern-microservices-container",
-  "image": "mcr.microsoft.com/devcontainers/universal",
-  "features": {
-
-  },
-  "customizations": {
-    "vscode": {
-      "settings": {
-        // Add any VS Code settings you want
-      },
-      "extensions": [
-        "streetsidesoftware.code-spell-checker"
-      ]
-    }
-  },
-  "postCreateCommand": ""
+    "name": "my-mern-microservices-container",
+    "image": "mcr.microsoft.com/devcontainers/universal",
+    "features": {},
+    "customizations": {
+        "vscode": {
+            "settings": {
+                // Add any VS Code settings you want
+            },
+            "extensions": [
+                "streetsidesoftware.code-spell-checker",
+                "esbenp.prettier-vscode"
+            ]
+        }
+    },
+    "postCreateCommand": "npm install"
 }
