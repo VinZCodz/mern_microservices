@@ -6,7 +6,7 @@ export default defineConfig(
     eslint.configs.recommended,
     tseslint.configs.recommendedTypeChecked,
     {
-        ignores: ['dist', 'node_modules', 'eslint.config.mjs'],
+        ignores: ['eslint.config.mjs'],
     },
     {
         languageOptions: {
@@ -16,7 +16,7 @@ export default defineConfig(
             },
         },
         rules: {
-            'no-console': 'warn',
+            // 'no-console': 'warn',
         },
     }
 )
