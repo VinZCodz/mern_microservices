@@ -1,7 +1,7 @@
 {
-    "name": "auth_service",
+    "name": "service",
     "version": "1.0.0",
-    "description": "The user management service",
+    "description": "",
     "main": "src/server.ts",
     "type": "module",
     "scripts": {
