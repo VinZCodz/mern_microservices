@@ -1,6 +1,4 @@
-# Template for MERN stack's Node applications:
-
-Template repo containing pre setup of the following:
+# Template repo with pre setup as below:
 
 - Express & Node js
 - Typescript
